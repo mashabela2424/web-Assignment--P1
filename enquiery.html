@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive on all devices -->
+  <title>Enquiry - LIFT KINGS</title> <!-- Title shown in browser tab -->
+</head>
+<body>
+
+  <h1>Enquiry Form</h1> <!-- Main heading of the page -->
+
+  <!-- Navigation Menu -->
+  <nav>
+    <a href="index.html">Home</a> | <!-- Link to homepage -->
+    <a href="about.html">About Us</a> | <!-- Link to About Us page -->
+    <a href="products.html">Products & Services</a> | <!-- Link to Products & Services page -->
+    <a href="enquiery.html">Enquiry</a> | 
+    <a href="contact.html">Contact</a> <!-- Link to Contact page -->
+  </nav>
+
+  <!-- Enquiry Form -->
+  <form>
+    <!-- Input for Full Name -->
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <!-- Input for Email -->
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <!-- Dropdown for selecting service -->
+    <label for="service">Service Interested In:</label><br>
+    <select id="service" name="service">
+      <option>Personal Training</option>
+      <option>Meal Planning</option>
+      <option>Exercise Guide</option>
+      <option>Progress Tracking</option>
+    </select><br><br>
+
+    <!-- Textarea for additional information -->
+    <label for="message">Additional Information:</label><br>
+    <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+
+    <!-- Submit button -->
+    <input type="submit" value="Submit Enquiry">
+  </form>
+
+</body>
+</html>
