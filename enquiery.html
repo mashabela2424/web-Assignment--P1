@@ -1,49 +1,37 @@
-<!DOCTYPE html> 
-<html lang="en"> 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive on all devices -->
-  <title>Enquiry - LIFT KINGS</title> <!-- Title shown in browser tab -->
+    <meta charset="UTF-8">
+    <title>Lift Kings - Enquiry</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h2 class="about">Enquiry</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products & Services</a>
+            <a href="enquiry.html">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-  <h1>Enquiry Form</h1> <!-- Main heading of the page -->
+    <div class="container">
+        <section>
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <input type="submit" value="Send Enquiry">
+            </form>
+        </section>
+    </div>
 
-  <!-- Navigation Menu -->
-  <nav>
-    <a href="index.html">Home</a> | <!-- Link to homepage -->
-    <a href="about.html">About Us</a> | <!-- Link to About Us page -->
-    <a href="products.html">Products & Services</a> | <!-- Link to Products & Services page -->
-    <a href="enquiery.html">Enquiry</a> | 
-    <a href="contact.html">Contact</a> <!-- Link to Contact page -->
-  </nav>
-
-  <!-- Enquiry Form -->
-  <form>
-    <!-- Input for Full Name -->
-    <label for="name">Full Name:</label><br>
-    <input type="text" id="name" name="name"><br><br>
-
-    <!-- Input for Email -->
-    <label for="email">Email Address:</label><br>
-    <input type="email" id="email" name="email"><br><br>
-
-    <!-- Dropdown for selecting service -->
-    <label for="service">Service Interested In:</label><br>
-    <select id="service" name="service">
-      <option>Personal Training</option>
-      <option>Meal Planning</option>
-      <option>Exercise Guide</option>
-      <option>Progress Tracking</option>
-    </select><br><br>
-
-    <!-- Textarea for additional information -->
-    <label for="message">Additional Information:</label><br>
-    <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
-
-    <!-- Submit button -->
-    <input type="submit" value="Submit Enquiry">
-  </form>
-
+    <footer>
+        <p>&copy; 2025 Lift Kings. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
+
